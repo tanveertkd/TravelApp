@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#3F51B5</color>-->
+    <color name="colorPrimary">#CB356B</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorPrimaryDark">#CB356B</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="gradientSplashStart">#BD3F32</color>
+    <color name="gradientSplashEnd">#CB356B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="greyWhite">#CCCCCC</color>
+    <color name="textBlack">#000000</color>
+</resources>
