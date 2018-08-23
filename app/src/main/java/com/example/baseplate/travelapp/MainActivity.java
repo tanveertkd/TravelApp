@@ -87,15 +87,15 @@ public class MainActivity extends AppCompatActivity {
                 mbackBtn.setEnabled(false);
                 mbackBtn.setVisibility(View.INVISIBLE);
 
-                mnextBtn.setText("Next");
+                mnextBtn.setText(getString(R.string.next));
                 mbackBtn.setText("");
             } else if (position == mDots.length-1) {
                 mnextBtn.setEnabled(true);
                 mbackBtn.setEnabled(true);
                 mbackBtn.setVisibility(View.VISIBLE);
 
-                mnextBtn.setText("Finish");
-                mbackBtn.setText("Back");
+                mnextBtn.setText(getString(R.string.finish));
+                mbackBtn.setText(getString(R.string.back));
                 mnextBtn.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View view) {
@@ -109,8 +109,8 @@ public class MainActivity extends AppCompatActivity {
                 mbackBtn.setEnabled(true);
                 mbackBtn.setVisibility(View.VISIBLE);
 
-                mnextBtn.setText("Next");
-                mbackBtn.setText("Back");
+                mnextBtn.setText(getString(R.string.next));
+                mbackBtn.setText(getString(R.string.back));
             }
         }
 

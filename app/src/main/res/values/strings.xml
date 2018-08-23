@@ -23,7 +23,9 @@
     <string name="hospitals_head">Hospitals</string>
     <string name="phrases_head">Common Phrases</string>
     <string name="train_head">Train Stations</string>
-
+    <string name="finish">Finish</string>
+    <string name="back">Back</string>
+    <string name="next">Next</string>
     <!--Hotels-->
 
     <string name="hotel_one">Citiez Hotel Amsterdam</string>
