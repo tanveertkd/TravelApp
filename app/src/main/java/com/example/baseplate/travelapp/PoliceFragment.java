@@ -19,9 +19,7 @@ import java.util.ArrayList;
 public class PoliceFragment extends Fragment {
 
 
-    public PoliceFragment() {
-        // Required empty public constructor
-    }
+    public PoliceFragment() {}
 
 
     @Override
@@ -30,31 +28,13 @@ public class PoliceFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
         final ArrayList<pojo> pojoArrayList = new ArrayList<pojo>();
-        pojoArrayList.add(new pojo(getString(R.string.ams_pol_one), R.drawable.pol_one, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.ams_pol_two), R.drawable.pol_two, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.ams_pol_three), R.drawable.pol_three, R.drawable.gradient_splash));
+        pojoArrayList.add(new pojo(getString(R.string.ams_pol_one), R.drawable.pol_one, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.police_one_location), R.drawable.ic_phone_solid, getString(R.string.police_one_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.ams_pol_two), R.drawable.pol_two, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.police_two_location), R.drawable.ic_phone_solid, getString(R.string.police_two_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.ams_pol_three), R.drawable.pol_three, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.police_three_location), R.drawable.ic_phone_solid, getString(R.string.police_three_phone)));
 
         HotelsAdapter adapter = new HotelsAdapter(getActivity(), pojoArrayList);
         ListView listViewItems = (ListView) rootView.findViewById(R.id.list);
         listViewItems.setAdapter(adapter);
-
-        listViewItems.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                pojo pojo = pojoArrayList.get(position);
-
-                if (position == 0) {
-                    Intent intent = new Intent(getActivity(), DetailActivity.class);
-                    startActivity(intent);
-                } else if (position == 1) {
-                    Intent intent = new Intent(getActivity(), DetailActivity.class);
-                    startActivity(intent);
-                } else {
-                    Intent intent = new Intent(getActivity(), DetailActivity.class);
-                    startActivity(intent);
-                }
-            }
-        });
 
         return rootView;
     }

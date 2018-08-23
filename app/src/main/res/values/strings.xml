@@ -17,7 +17,7 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="hotels_head">Hotels</string>
-    <string name="restaurant_head">Restaurant</string>
+    <string name="restaurant_head">Restaurants</string>
     <string name="places_head">Places</string>
     <string name="police_head">Police Station</string>
     <string name="hospitals_head">Hospitals</string>
@@ -48,152 +48,130 @@
     <string name="place_four">Amsterdam Canal Cruises</string>
     <string name="place_five">National Monument</string>
 
-    <!--Events-->
-
-    <string name="event_one">Evenementenbureau Mokum Events</string>
-    <string name="event_two">Rapido Events B.V.</string>
-    <string name="event_three">Impact Hub Amsterdam</string>
-    <string name="event_four">Special Tours and Events Amsterdam</string>
-    <string name="event_five">ALDA Events Amsterdam</string>
-
-    <!--Information-->
-
-    <string name="police">Police Station</string>
-    <string name="hospitals">Hospitals</string>
-    <string name="words">Common Phrases</string>
-    <string name="trains">Train Stations</string>
-    <string name="airports">Airports</string>
-
     <!--Police Stations-->
 
     <string name="ams_pol_one">Police Station Amsterdam-Burgwallen</string>
     <string name="ams_pol_one_add">Nieuwezijds Voorburgwal 35, 1012 RD Amsterdam, Netherlands</string>
     <string name="ams_pol_one_ph"> Phone: +31 900 8844 </string>
-    <string name="ams_pol_one_pro">Province: North Holland</string>
 
     <string name="ams_pol_two">Police Station Amsterdam-Amstelland</string>
     <string name="ams_pol_two_add">Elandsgracht 117, 1016 TT Amsterdam, Netherlands</string>
     <string name="ams_pol_two_ph"> Phone: +31 900 8844 </string>
-    <string name="ams_pol_two_pro">Province: North Holland</string>
 
     <string name="ams_pol_three">Police Station Amsterdam-Oost Zeeburg</string>
     <string name="ams_pol_three_add">Balistraat 104, 1094 JT Amsterdam, Netherlands</string>
     <string name="ams_pol_three_ph"> Phone: +31 900 8844 </string>
-    <string name="ams_pol_three_pro">Province: North Holland</string>
 
     <!--Train Stations-->
 
     <string name="ams_central">Amsterdam Centraal</string>
-    <string name="ams_abt_central">Amsterdam Centraal is the largest railway station of Amsterdam,
-            Netherlands, and a major national railway hub. Used by 162,000 passengers a day,
-            it is the second-busiest railway station in the country after Utrecht Centraal and the
-            most visited national heritage site of the Netherlands. </string>
-
     <string name="ams_amstel">Amsterdam Amstel</string>
-    <string name="ams_abt_amstel">Amsterdam Amstel is a railway station in Amsterdam, Netherlands.
-            The station opened in 1939. It is located to the southeast of Amsterdam Centraal in the
-            borough of Amsterdam-Oost, near the Amstel river. Amsterdam Amstel is used daily by
-            50,000 train and metro passengers. </string>
-
     <string name="ams_bijlmer">Amsterdam Bijlmer ArenA</string>
-    <string name="ams_abt_bijlmer">Amsterdam Bijlmer ArenA, is a railway station in the Bijlmermeer
-            neighbourhood of the Amsterdam Zuidoost stadsdeel (borough) of Amsterdam, Netherlands.
-            The station has five platforms and eight tracks; two for the Amsterdam Metro and six train
-            tracks, along with a bus station. Train services are operated by Nederlandse Spoorwegen.
-            </string>
 
+    <!--Hotel Locations-->
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_detail">DetailActivity</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
+    <string name="hotel_one_location">Osdorpplein 372A, 1068 EV Amsterdam, Netherlands</string>
+    <string name="hotel_one_phone">+31202246280</string>
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
+    <string name="hotel_two_location">Slotermeerlaan 80, 1064 HD Amsterdam, Netherlands</string>
+    <string name="hotel_two_phone">+31 20 506 3715</string>
 
-        "Bold, graphic, intentional.\n\n"
+    <string name="hotel_three_location">Delflandlaan 15, 1062 EA Amsterdam, Netherlands</string>
+    <string name="hotel_three_phone">+31 20 881 2595</string>
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
+    <string name="hotel_four_location">Eerste Ringdijkstraat 4, 1097 BC Amsterdam, Netherlands</string>
+    <string name="hotel_four_phone">+31 20 665 1171</string>
 
-        "Motion provides meaning.\n\n"
+    <string name="hotel_five_location">Heathrowstraat 5, 1043 CE Amsterdam, Netherlands</string>
+    <string name="hotel_five_phone">+31 20 210 3535</string>
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+    <!--Restaurant Locations-->
 
-        "3D world.\n\n"
+    <string name="restaurant_one_location">Professor Tulpplein 1, 1018 GX Amsterdam, Netherlands</string>
+    <string name="restaurant_one_phone">+31 20 520 3264</string>
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    <string name="restaurant_two_location">hreklcil, Daniël Stalpertstraat 103, 1072 XD Amsterdam, Netherlands</string>
+    <string name="restaurant_two_phone">+31 20 673 6333</string>
 
-        "Light and shadow.\n\n"
+    <string name="restaurant_three_location">Herengracht 542&#8211;556, 1017 CG Amsterdam, Netherlands</string>
+    <string name="restaurant_three_phone">+31 20 718 4643</string>
 
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+    <string name="restaurant_four_location">Keizersgracht 384, 1016 GB Amsterdam, Netherlands</string>
+    <string name="restaurant_four_phone">+31 20 530 2010</string>
 
-        "Resting elevation.\n\n"
+    <string name="restaurant_five_location">Ferdinand Bolstraat 143, 1072 LH Amsterdam, Netherlands</string>
+    <string name="restaurant_five_phone">+31 20 370 1134</string>
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
+    <!--Places Locations-->
 
-        "Component elevations.\n\n"
+    <string name="place_one_location">Prinsengracht 263&#8211;267, 1016 GV Amsterdam, Netherlands</string>
+    <string name="place_one_phone">+31 20 556 7105</string>
 
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+    <string name="place_two_location">Albert Cuypstraat, 1073 BD Amsterdam, Netherlands</string>
+    <string name="place_two_phone">+31 20 673 6333</string>
 
-        "Responsive elevation and dynamic elevation offsets.\n\n"
+    <string name="place_three_location">Museumplein 6, 1071 DJ Amsterdam, Netherlands</string>
+    <string name="place_three_phone">+31 20 570 5200.</string>
 
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
+    <string name="place_four_location">Stadhouderskade 550, Amsterdam, Netherlands</string>
+    <string name="place_four_phone">+31 20 626 5636</string>
 
-        "Avoiding elevation interference.\n\n"
+    <string name="place_five_location">Dam, 1012 JL Amsterdam, Netherlands</string>
+    <string name="place_five_phone">+31 20 624 1111</string>
 
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
+    <!--Police-->
+
+    <string name="police_one_location">Nieuwezijds Voorburgwal 35, 1012 RD Amsterdam, Netherlands</string>
+    <string name="police_one_phone">+31 900 8844</string>
+
+    <string name="police_two_location">Elandsgracht 117, 1016 TT Amsterdam, Netherlands</string>
+    <string name="police_two_phone">+31 900 8844</string>
+
+    <string name="police_three_location">Balistraat 104, 1094 JT Amsterdam, Netherlands</string>
+    <string name="police_three_phone">+31 900 8844</string>
+
+    <!--Train Locations-->
+
+    <string name="train_one_location">Stationsplein, 1012 AB Amsterdam, Netherlands</string>
+    <string name="train_one_phone">+31 30 235 78 22</string>
+
+    <string name="train_two_location">1097 BL Amsterdam, Netherlands</string>
+    <string name="train_two_phone">+31 20 626 5636</string>
+
+    <string name="train_three_location">1101 BE Amsterdam, Netherlands</string>
+    <string name="train_three_phone">+31 30 751 5155</string>
+
+    <!--Phrases-->
+
+    <string name="phrase_one">Hallo</string>
+    <string name="phrase_two">Dank u</string>
+    <string name="phrase_three">Ja</string>
+    <string name="phrase_four">Het spijt me</string>
+    <string name="phrase_five">Alsjeblieft</string>
+    <string name="phrase_six">Nee</string>
+    <string name="phrase_seven">Hoeveel kost het?</string>
+    <string name="phrase_eight">Tot ziens</string>
+    <string name="phrase_nine">Excuseer</string>
+    <string name="phrase_ten">Dokter</string>
+    <string name="phrase_eleven">De rekening, alstublieft</string>
+    <string name="phrase_twelve">Waar is het toilet?</string>
+
+    <!--Phrase Meaning-->
+
+    <string name="phrase_one_meaning">Hello</string>
+    <string name="phrase_two_meaning">Thank you!</string>
+    <string name="phrase_three_meaning">Yes</string>
+    <string name="phrase_four_meaning">I am sorry</string>
+    <string name="phrase_five_meaning">Please</string>
+    <string name="phrase_six_meaning">No</string>
+    <string name="phrase_seven_meaning">How much is it?</string>
+    <string name="phrase_eight_meaning">Goodbye</string>
+    <string name="phrase_nine_meaning">Excuse</string>
+    <string name="phrase_ten_meaning">Doctor</string>
+    <string name="phrase_eleven_meaning">The check, please</string>
+    <string name="phrase_twelve_meaning">Where is the bathroom?</string>
+
+    <string name="play">Play</string>
+
 
 </resources>

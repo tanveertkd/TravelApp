@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity {
                         finish();
                     }
                 });
-//                Toast.makeText(MainActivity.this, "Reached the end", Toast.LENGTH_SHORT).show();
             } else {
                 mnextBtn.setEnabled(true);
                 mbackBtn.setEnabled(true);

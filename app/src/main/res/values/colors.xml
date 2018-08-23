@@ -10,4 +10,5 @@
     <color name="white">#FFFFFF</color>
     <color name="greyWhite">#CCCCCC</color>
     <color name="textBlack">#000000</color>
+    <color name="phraseBg">#ff9100</color>>
 </resources>

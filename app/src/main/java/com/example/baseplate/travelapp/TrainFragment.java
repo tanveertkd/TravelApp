@@ -17,9 +17,7 @@ import java.util.ArrayList;
 public class TrainFragment extends Fragment {
 
 
-    public TrainFragment() {
-        // Required empty public constructor
-    }
+    public TrainFragment() {}
 
 
     @Override
@@ -29,9 +27,9 @@ public class TrainFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
         ArrayList<pojo> pojoArrayList = new ArrayList<pojo>();
-        pojoArrayList.add(new pojo(getString(R.string.ams_central), R.drawable.train_one, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.ams_amstel), R.drawable.train_two, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.ams_bijlmer), R.drawable.train_three, R.drawable.gradient_splash));
+        pojoArrayList.add(new pojo(getString(R.string.ams_central), R.drawable.train_one, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.train_one_location), R.drawable.ic_phone_solid, getString(R.string.train_one_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.ams_amstel), R.drawable.train_two, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.train_two_location), R.drawable.ic_phone_solid, getString(R.string.train_two_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.ams_bijlmer), R.drawable.train_three, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.train_two_location), R.drawable.ic_phone_solid, getString(R.string.train_two_phone)));
 
         HotelsAdapter adapter = new HotelsAdapter(getActivity(), pojoArrayList);
         ListView listViewItems = (ListView) rootView.findViewById(R.id.list);

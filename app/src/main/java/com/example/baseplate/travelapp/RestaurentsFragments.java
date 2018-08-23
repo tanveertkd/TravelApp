@@ -17,9 +17,7 @@ import java.util.ArrayList;
 public class RestaurentsFragments extends Fragment {
 
 
-    public RestaurentsFragments() {
-        // Required empty public constructor
-    }
+    public RestaurentsFragments() {}
 
 
     @Override
@@ -29,11 +27,11 @@ public class RestaurentsFragments extends Fragment {
         View rootView = inflater.inflate(R.layout.item_list, container, false);
 
         ArrayList<pojo> pojoArrayList = new ArrayList<pojo>();
-        pojoArrayList.add(new pojo(getString(R.string.restaurant_one), R.drawable.restaurant_one, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.restaurant_two), R.drawable.restaurant_two, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.restaurant_three), R.drawable.restaurant_three, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.restaurant_four), R.drawable.restaurant_four, R.drawable.gradient_splash));
-        pojoArrayList.add(new pojo(getString(R.string.restaurant_five), R.drawable.restaurant_five, R.drawable.gradient_splash));
+        pojoArrayList.add(new pojo(getString(R.string.restaurant_one), R.drawable.restaurant_one, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.restaurant_one_location), R.drawable.ic_phone_solid, getString(R.string.restaurant_one_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.restaurant_two), R.drawable.restaurant_two, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.restaurant_two_location), R.drawable.ic_phone_solid, getString(R.string.restaurant_two_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.restaurant_three), R.drawable.restaurant_three, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.restaurant_three_location), R.drawable.ic_phone_solid, getString(R.string.restaurant_three_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.restaurant_four), R.drawable.restaurant_four, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.restaurant_four_location), R.drawable.ic_phone_solid, getString(R.string.restaurant_four_phone)));
+        pojoArrayList.add(new pojo(getString(R.string.restaurant_five), R.drawable.restaurant_five, R.drawable.gradient_splash, R.drawable.ic_map_, getString(R.string.restaurant_five_location), R.drawable.ic_phone_solid, getString(R.string.restaurant_five_phone)));
 
         HotelsAdapter adapter = new HotelsAdapter(getActivity(), pojoArrayList);
         ListView listViewItems = (ListView) rootView.findViewById(R.id.list);
